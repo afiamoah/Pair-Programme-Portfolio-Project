@@ -1,0 +1,294 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+/* 
+body{
+    background-image: url('images/mountain.jpg');
+    background-size: cover;
+} */
+
+.main-container{
+display: flex;
+flex-direction:column;
+
+}
+
+.nav-container{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:#24252A;
+    font-family: 'Montserrat', sans-serif;
+}
+li{
+    display: inline-block;
+margin: 20px;
+text-decoration: none;
+color: white;
+font-family: 'Montserrat', sans-serif;
+font-weight: 500;
+
+}
+li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+a :hover{
+    color:blue;
+}
+.main-section{
+
+}
+
+
+.welcome-page{ 
+    height:900px;
+    background-image: url('images/man.jpg');
+    background-size: cover;
+    opacity:0.9;
+text-align: center;
+    margin: 0 auto;
+}
+.head1{
+ font-family: 'Montserrat', sans-serif;
+ font-weight:1200;
+ color: white;
+ font-size:70px;
+ text-align: center;
+ padding-top:300px;
+ box-shadow: 0px 0px 10px 0px black;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight:1500;
+    font-size:30px;
+    text-align: center;
+    padding-left:300px;
+   }
+
+.work-done{
+    height: auto;
+}
+
+.projects-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+     justify-content:space-between; 
+    align-items: center;
+     margin-left:200px;
+margin-right:200px; 
+margin-top: 30px;
+   
+}
+
+
+
+.projects{
+    width:400px; 
+    height:350px;
+    box-shadow: 0px 0px 10px 0px black;
+}
+.pbutton{
+    width: 100%;
+    height: 100%;
+}
+
+button{
+width: 100%;
+background-color: #24252A;
+color:white;
+font-family: 'Montserrat', sans-serif;
+font-size: 25px;
+font-weight:1800;
+
+height:100px;
+}
+
+/* @media (max-width: 600px) {
+    .projects-gallery{
+        display: flex;
+        flex-direction:column;
+        justify-content:space-between;
+        align-items: center;
+        margin-left:200px;
+    margin-right:200px;
+    margin-top: 30px;
+    }
+      
+  } */
+
+  
+@media  (max-width: 768px) {
+    .projects-gallery{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction:column;
+        justify-content:space-between;
+        align-items: center;
+        margin-left:200px;
+    margin-right:200px;
+    /* margin-top: 30px; */
+
+    }
+    
+.projects{
+
+    width:400px; 
+    height:350px;
+    margin-top: 10px;
+    box-shadow: 0px 0px 10px 0px black;
+}
+
+
+.head1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight:1200;
+    color: white;
+    font-size:60px;
+    text-align: center;
+    padding-top:100px;
+    box-shadow: 0px 0px 10px 0px black;
+   }
+   
+   h2{
+       font-family: 'Montserrat', sans-serif;
+       font-weight:1500;
+       font-size:30px;
+       text-align: center;
+       padding-left:300px;
+      }
+
+      .work-h{
+        font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    font-weight:1500;
+    text-align: center;
+    box-shadow: 0px 0px 10px 0px ;
+    
+    } 
+      
+  } 
+
+
+
+    
+/* @media screen and  (max-width: 1000px) {
+    .projects-gallery{
+        display: flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+        justify-content:space-between;
+        align-items: center;
+        margin-left:100px;
+    margin-right:100px;
+    margin-top: 30px;
+       
+    } */
+
+
+
+    
+
+.work-h{
+    font-family: 'Montserrat', sans-serif;
+font-size: 50px;
+font-weight:1500;
+text-align: center;
+box-shadow: 0px 0px 10px 0px ;
+
+}
+      
+  
+
+.pimage6{
+    height:250px;
+    background-image: url('images/student.jpg');
+    background-size: cover;
+
+}
+
+.pimage1{
+    height:250px;
+    background-image: url('images/ecommerce.jpg');
+    background-size: cover;
+
+}
+
+
+.pimage2{
+    height:250px;
+    background-image: url('images/woman.jpg');
+    background-size: cover;
+
+}
+
+
+.pimage3{
+    height:250px;
+    background-image: url('images/tools.jpg');
+    background-size: cover;
+
+}
+
+
+.pimage4{
+    height:250px;
+    background-image: url('images/student2.jpg');
+    background-size: cover;
+
+}
+
+
+.pimage5{
+    height:250px;
+    background-image: url('images/port.jpg');
+    background-size: cover;
+
+}
+
+
+.pimage7{
+    height:250px;
+    background-image: url('images/port.jpg');
+    background-size: cover;
+
+}
+
+.together{
+    background-color: #24252A;
+    height:300px;
+    margin-top: 20px;
+
+}
+
+.creative{
+color:red;
+text-align: center;
+padding-top:70px;
+font-family: 'Montserrat', sans-serif;
+
+
+}
+
+.microverse{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding-top:50px;
+    margin-right: 300px;
+    font-family: 'Montserrat', sans-serif;
+    }
+
+
